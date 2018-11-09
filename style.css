@@ -1,0 +1,97 @@
+body{
+    font-family: 'Audiowide', cursive;
+    color: #e777e7;
+    background-color: #e777e7;
+    width: 960px;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+   
+
+    header{
+        background: #ebebeb;
+        width: 100%;
+        border: blue;
+        padding: 25px;
+        margin: 10px;
+        position: relative;
+        left: 450px;
+    }
+
+    nav{
+        background: #ebebeb;
+        width: 960px;
+        margin: 10px;
+        border: blue;
+        padding: 25px;
+        margin: 10px;
+        position: relative;
+        left: 450px;
+
+    }
+
+    section{
+        background: #ebebeb;
+        border: blue;
+        float: left;
+        width: 45%;
+        padding: 20%
+
+
+    }
+
+    h1{
+        color: #777777;
+        background: #ebebeb;
+        width: 20%;
+        border: blue;
+        padding: 25px;
+        position: relative;
+    }
+
+    article{
+        color: #ebebeb;
+        background: #777777;
+        width: 20%;
+        border: blue;
+        padding: 25px;
+
+    }
+
+    p{
+        
+        font-size: 140%;
+        font-weight: 500;
+
+    }
+
+    aside{
+        background: #ebebeb;
+        border: blue;
+        float: right;
+        width: 45%;
+
+
+    }
+
+    footer{
+        background: greenyellow;
+        width: 100%;
+        border: blue;
+        padding: 25px;
+        position: relative;
+        left: 450px;        
+    }
+
+    .clearfix::after {
+        content: "section";
+        clear: both;
+        display: table;
+    }
+
+    div.box{
+        width: 100%;
+        border: 5px solid yellowgreen;
+
+    }
